@@ -5,28 +5,22 @@ Using SQL to Analyze Data Scientist Job Salaries, Skills & Market Demand
 This project explores real job-market data for Data Scientists, analyzing top-paying roles, in-demand skills, highest-paying skills, and the optimal skillset that combines high salary and high demand.
 All analysis is performed using SQL on a relational dataset containing job postings, companies, and skills.
 
-## 🗂️ Repository Structure
+## Repository Structure
+```text
 sql-data-science-analysis/
 │
 ├── README.md
 │
-├── data/
-│   └── raw/ (dataset provided by the instructor/video)
-│
-├── sql/
-│   ├── 01_top_paying_jobs.sql
-│   ├── 02_skills_of_top_paying_jobs.sql
-│   ├── 03_top_demanded_skills.sql
-│   ├── 04_top_paying_skills.sql
-│   └── 05_optimal_skills.sql
-│
-├── analysis/
-│   ├── findings.md
-│   └── charts/ (optional)
-│
-└── assets/ (images for README)
+└── sql/
+    ├── 01_top_paying_jobs.sql
+    ├── 02_skills_of_top_paying_jobs.sql
+    ├── 03_top_demanded_skills.sql
+    ├── 04_top_paying_skills.sql
+    └── 05_optimal_skills.sql
+```
 
-## 📚 Dataset Description
+
+## Dataset Description
 
 This dataset includes:
 
@@ -34,9 +28,9 @@ This dataset includes:
 - Company information
 - Skills: technical skills tied to each job posting
 
-The data was sourced from a SQL teaching project (video linked in the project description).
+The data was sourced from a SQL teaching project ([SQL for Data Analytics - Learn SQL in 4 Hours](https://drive.google.com/drive/folders/1egWenKd_r3LRpdCf4SsqTeFZ1ZdY3DNx)).
 
-## 🧠 Goal of the Project
+## Goal of the Project
 
 To answer 5 practical questions:
 
